@@ -189,7 +189,7 @@ wire ext_audio;
 
 wire clk;       // 21.477Mhz main clock
 wire fclk;      // 3x clk SDRAM clock
-wire hclk;      // 720p pixel clock: 74.25 Mhz
+wire hclk;      // 1080p pixel clock: 148.5 Mhz
 wire hclk5;     // 5x pixel clock: 371.25 Mhz
 wire clk27;     // 27Mhz to generate hclk/hclk5
 wire clk_usb;   // 12Mhz USB clock
