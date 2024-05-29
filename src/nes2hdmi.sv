@@ -35,12 +35,12 @@ module nes2hdmi (
 
 // include from tang_primer_25k/config.sv and tang_nano_20k/config.sv
 
-localparam FRAMEWIDTH = 1280;
-localparam FRAMEHEIGHT = 720;
-localparam TOTALWIDTH = 1650;
-localparam TOTALHEIGHT = 750;
+localparam FRAMEWIDTH = 1920;
+localparam FRAMEHEIGHT = 1080;
+localparam TOTALWIDTH = 2200;
+localparam TOTALHEIGHT = 1125;
 localparam SCALE = 5;
-localparam VIDEOID = 4;
+localparam VIDEOID = 16;
 localparam VIDEO_REFRESH = 60.0;
 
 // localparam IDIV_SEL_X5 = 3;
