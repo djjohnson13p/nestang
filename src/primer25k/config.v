@@ -1,4 +1,4 @@
-`define RES_720P
+`define RES_1080p
 `define GW_IDE
 `define PRIMER
 
